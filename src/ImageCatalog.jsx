@@ -98,7 +98,7 @@ function ImageCatalog() {
   return (
     <div className={classes.root}>
       <GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile style={{ width: '100vw' }} key="Subheader" cols={5} style={{ height: 'auto' }}>
+        <GridListTile style={{ width: '100vw', height: 'auto' }} key="Subheader" cols={5}>
           <ListSubheader style={{ width: '75vw' }} component="div">Photos</ListSubheader>
         </GridListTile>
         {catalog.length

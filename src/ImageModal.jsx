@@ -16,7 +16,7 @@ const ImageModal = ({ photo, handleClose, onCancel, onChange, onSave, open }) =>
     <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title" maxWidth="md" fullWidth>
       <DialogTitle>{title}</DialogTitle>
       <DialogContent style={{ margin: '0 auto' }}>
-        <img src={url} />
+        <img src={url} alt="ModalImage" />
         <DialogContentText>
           {description}
         </DialogContentText>
